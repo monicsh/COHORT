@@ -1,17 +1,18 @@
-package com.restapi.example.demorest;
+package com.example.rest.demorest.model;
 
 /*
- {
- "fname" : "monika",
- "lname" : "sharma",
- "score" : 69
- }
- */
+{
+"fname" : "monika",
+"lname" : "sharma",
+"score" : 69
+}
+*/
 
 public class Student {
 	String fname;
 	String lname;
 	int score;
+	//String city;
 
 	
 
@@ -23,11 +24,9 @@ public class Student {
 	}
 
 
-
 	public String getFname() {
 		return fname;
 	}
-
 
 
 	public void setFname(String fname) {
